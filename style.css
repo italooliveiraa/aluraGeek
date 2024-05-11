@@ -1,0 +1,17 @@
+header{
+    background-color:#5300C8 ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.texto__cabecalho{
+    display: flex;
+    font-size: 24px;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    color: #E5E5E5;
+}
+.imagem__coracoes{
+height: 55px;
+}
