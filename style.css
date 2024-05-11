@@ -1,8 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 header{
     background-color:#5300C8 ;
     display: flex;
     justify-content: center;
     align-items:center;
+}
+main{
+    flex: 1;
 }
 .texto__cabecalho{
     display: flex;
@@ -13,5 +23,32 @@ header{
     color: #E5E5E5;
 }
 .imagem__coracoes{
-height: 55px;
+    height: 55px;
+}
+
+
+
+
+
+
+.rodape{
+    background-color:#5300C8 ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+}
+.texto__rodape{
+    display: flex;
+    font-size: 24px;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    color: #E5E5E5;
+}
+.autor{
+    color: #E5E5E5;
+    display: flex;
+    font-size: 20px;
+    padding-left: 10px;
 }
